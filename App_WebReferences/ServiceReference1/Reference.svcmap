@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="104aa3ad-5d3b-4823-b69a-b240215d7ee0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1055/CommunityAssistServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CommunityAssistServices.wsdl" MetadataType="Wsdl" ID="746bf40b-7111-4b8a-a32b-bee896d00688" SourceId="1" SourceUrl="http://localhost:1055/CommunityAssistServices.svc?wsdl" />
+    <MetadataFile FileName="CommunityAssistServices.xsd" MetadataType="Schema" ID="1c1f54ff-93a8-4a87-a680-bf3538ee2c6a" SourceId="1" SourceUrl="http://localhost:1055/CommunityAssistServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="CommunityAssistServices1.xsd" MetadataType="Schema" ID="322c3f98-4421-4a3a-a77b-585c9086702f" SourceId="1" SourceUrl="http://localhost:1055/CommunityAssistServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="CommunityAssistServices2.xsd" MetadataType="Schema" ID="ea781006-ef74-4898-b5ea-1289c4efdfe0" SourceId="1" SourceUrl="http://localhost:1055/CommunityAssistServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="CommunityAssistServices.disco" MetadataType="Disco" ID="198aafc8-1b0c-4ce6-ad8b-708632963e67" SourceId="1" SourceUrl="http://localhost:1055/CommunityAssistServices.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
